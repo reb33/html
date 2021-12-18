@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.main-header {
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+}
+
+.title .paragraph{
+    width: 425px;
+}
+
+.card-list{
+    display: flex;
+    justify-content: space-between
+}
+
+.card{
+    width: 359px;
+    border: 1px solid black;
+}
+
+.alter-header {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.medium-header {
+    font-size: 36px;
+    text-align: center;
+}
+
+.small-header {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input-field {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 20px;
+    opacity: 0.4;
+}
+
+.submit {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.intersted-to-woek{
+    width: 495px;
+}
+
+.intersted-to-woek .medium-header{
+    width: 340px;
+}
+
+.footer-contacts{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between
+}
+
+.contacts-with-form{
+    display: flex;
+    justify-content: space-between
+}
+
+.yandex-card{
+    width: inherit;
+}
